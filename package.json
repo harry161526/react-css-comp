@@ -1,6 +1,6 @@
 {
   "name": "react-css-comp",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "description": "this is a customized react components",
   "main": "dist/cjs/index.js", 
   "module": "dist/esm/index.js",
@@ -41,6 +41,7 @@
     "@storybook/react-webpack5": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.2.14",
+    "postcss": "^8.4.25",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

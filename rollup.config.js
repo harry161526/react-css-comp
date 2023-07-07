@@ -21,7 +21,10 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      postcss(),
+      postcss({
+        extract: true,
+        plugins: []
+      }),
       typescript({ tsconfig: './tsconfig.json'})
     ]
   },
