@@ -7,9 +7,10 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
+  const buttonType = props.primary ? 'button-standard-primary' : 'button-standard-secondary'
   return (
     <button
-      className={`button-standard`}
+      className={`button-standard ${buttonType} button-standard-${props.size}`}
     >
       {props.label}
     </button>
